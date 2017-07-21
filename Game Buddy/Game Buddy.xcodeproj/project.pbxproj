@@ -12,6 +12,7 @@
 		07DCFC1C1F2294DB0025A140 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07DCFC1A1F2294DB0025A140 /* Main.storyboard */; };
 		07DCFC1E1F2294DB0025A140 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07DCFC1D1F2294DB0025A140 /* Assets.xcassets */; };
 		07DCFC211F2294DB0025A140 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07DCFC1F1F2294DB0025A140 /* LaunchScreen.storyboard */; };
+		07DCFC2A1F2297650025A140 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DCFC291F2297650025A140 /* LoginVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		07DCFC1D1F2294DB0025A140 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07DCFC201F2294DB0025A140 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		07DCFC221F2294DB0025A140 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07DCFC291F2297650025A140 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +57,22 @@
 			isa = PBXGroup;
 			children = (
 				07DCFC161F2294DB0025A140 /* AppDelegate.swift */,
-				07DCFC181F2294DB0025A140 /* ViewController.swift */,
+				07DCFC281F2295570025A140 /* Controller */,
 				07DCFC1A1F2294DB0025A140 /* Main.storyboard */,
 				07DCFC1D1F2294DB0025A140 /* Assets.xcassets */,
 				07DCFC1F1F2294DB0025A140 /* LaunchScreen.storyboard */,
 				07DCFC221F2294DB0025A140 /* Info.plist */,
 			);
 			path = "Game Buddy";
+			sourceTree = "<group>";
+		};
+		07DCFC281F2295570025A140 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				07DCFC181F2294DB0025A140 /* ViewController.swift */,
+				07DCFC291F2297650025A140 /* LoginVC.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				07DCFC191F2294DB0025A140 /* ViewController.swift in Sources */,
 				07DCFC171F2294DB0025A140 /* AppDelegate.swift in Sources */,
+				07DCFC2A1F2297650025A140 /* LoginVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
