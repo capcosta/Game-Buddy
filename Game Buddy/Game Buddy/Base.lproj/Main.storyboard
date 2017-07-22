@@ -134,6 +134,9 @@
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="handleRegister:" destination="rW0-Jx-UAW" eventType="touchUpInside" id="hLA-Ja-4k9"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="goboard" translatesAutoresizingMaskIntoConstraints="NO" id="sbn-eF-51B">
                                 <rect key="frame" x="52" y="37" width="96" height="96"/>
@@ -165,6 +168,11 @@
                             <constraint firstItem="w8G-1Y-DL6" firstAttribute="leading" secondItem="sSV-wQ-vgy" secondAttribute="leadingMargin" constant="10" id="w2u-GV-nsc"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="emailField" destination="Yvj-dt-cai" id="RtF-Fi-SJd"/>
+                        <outlet property="nameField" destination="ZcC-Vw-7SF" id="MV4-Y6-s1l"/>
+                        <outlet property="passwordField" destination="iIv-l5-JQ7" id="lQN-PG-lSh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uOV-hy-heq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

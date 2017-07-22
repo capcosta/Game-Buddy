@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>680206581606-km34kmf9fm10gu2ugkhae2ntb4tqbrb9.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.680206581606-km34kmf9fm10gu2ugkhae2ntb4tqbrb9</string>
+	<key>API_KEY</key>
+	<string>AIzaSyALUjkmU5MCEDNmsGKmST_pCIM5jPxkdtE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>680206581606</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>ca.costa.Game-Buddy</string>
+	<key>PROJECT_ID</key>
+	<string>game-buddy-a0666</string>
+	<key>STORAGE_BUCKET</key>
+	<string>game-buddy-a0666.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:680206581606:ios:1d12a73eae912c85</string>
+	<key>DATABASE_URL</key>
+	<string>https://game-buddy-a0666.firebaseio.com</string>
+</dict>
+</plist>

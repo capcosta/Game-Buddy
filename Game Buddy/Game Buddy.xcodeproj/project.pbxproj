@@ -13,6 +13,8 @@
 		07DCFC1E1F2294DB0025A140 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07DCFC1D1F2294DB0025A140 /* Assets.xcassets */; };
 		07DCFC211F2294DB0025A140 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07DCFC1F1F2294DB0025A140 /* LaunchScreen.storyboard */; };
 		07DCFC2A1F2297650025A140 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DCFC291F2297650025A140 /* LoginVC.swift */; };
+		07FFCC581F22F95E001EC375 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 07FFCC571F22F95E001EC375 /* GoogleService-Info.plist */; };
+		F49892596236A8524A60DBD3 /* Pods_Game_Buddy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE59160523727584D063EE72 /* Pods_Game_Buddy.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,10 @@
 		07DCFC201F2294DB0025A140 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		07DCFC221F2294DB0025A140 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07DCFC291F2297650025A140 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		07FFCC571F22F95E001EC375 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1E7179472224D88CCE3ABC7C /* Pods-Game Buddy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Game Buddy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Game Buddy/Pods-Game Buddy.debug.xcconfig"; sourceTree = "<group>"; };
+		5E8D470810826B4722D1E39E /* Pods-Game Buddy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Game Buddy.release.xcconfig"; path = "Pods/Target Support Files/Pods-Game Buddy/Pods-Game Buddy.release.xcconfig"; sourceTree = "<group>"; };
+		EE59160523727584D063EE72 /* Pods_Game_Buddy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Game_Buddy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F49892596236A8524A60DBD3 /* Pods_Game_Buddy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +49,8 @@
 			children = (
 				07DCFC151F2294DB0025A140 /* Game Buddy */,
 				07DCFC141F2294DB0025A140 /* Products */,
+				0E2A1667D93BE7C6957FC1A9 /* Pods */,
+				469964AB5023EF556BB5B62B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +71,7 @@
 				07DCFC1D1F2294DB0025A140 /* Assets.xcassets */,
 				07DCFC1F1F2294DB0025A140 /* LaunchScreen.storyboard */,
 				07DCFC221F2294DB0025A140 /* Info.plist */,
+				07FFCC571F22F95E001EC375 /* GoogleService-Info.plist */,
 			);
 			path = "Game Buddy";
 			sourceTree = "<group>";
@@ -75,6 +85,23 @@
 			name = Controller;
 			sourceTree = "<group>";
 		};
+		0E2A1667D93BE7C6957FC1A9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1E7179472224D88CCE3ABC7C /* Pods-Game Buddy.debug.xcconfig */,
+				5E8D470810826B4722D1E39E /* Pods-Game Buddy.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		469964AB5023EF556BB5B62B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE59160523727584D063EE72 /* Pods_Game_Buddy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -82,9 +109,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 07DCFC251F2294DB0025A140 /* Build configuration list for PBXNativeTarget "Game Buddy" */;
 			buildPhases = (
+				EF5E4C024FF817C0031BD1B2 /* [CP] Check Pods Manifest.lock */,
 				07DCFC0F1F2294DB0025A140 /* Sources */,
 				07DCFC101F2294DB0025A140 /* Frameworks */,
 				07DCFC111F2294DB0025A140 /* Resources */,
+				3EB640EB813D95C51F35F6DC /* [CP] Embed Pods Frameworks */,
+				85DB9201AF6BD4398F14A751 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -136,12 +166,61 @@
 			buildActionMask = 2147483647;
 			files = (
 				07DCFC211F2294DB0025A140 /* LaunchScreen.storyboard in Resources */,
+				07FFCC581F22F95E001EC375 /* GoogleService-Info.plist in Resources */,
 				07DCFC1E1F2294DB0025A140 /* Assets.xcassets in Resources */,
 				07DCFC1C1F2294DB0025A140 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3EB640EB813D95C51F35F6DC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Game Buddy/Pods-Game Buddy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85DB9201AF6BD4398F14A751 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Game Buddy/Pods-Game Buddy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF5E4C024FF817C0031BD1B2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		07DCFC0F1F2294DB0025A140 /* Sources */ = {
@@ -273,6 +352,7 @@
 		};
 		07DCFC261F2294DB0025A140 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E7179472224D88CCE3ABC7C /* Pods-Game Buddy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7E5397F394;
@@ -287,6 +367,7 @@
 		};
 		07DCFC271F2294DB0025A140 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E8D470810826B4722D1E39E /* Pods-Game Buddy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7E5397F394;
